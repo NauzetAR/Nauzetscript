@@ -1,0 +1,6 @@
+[Unit]
+Description=Sincronizacion rsync del directorio personal
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /scrNauzet/Nauzetsp31-9.sh

@@ -1,0 +1,5 @@
+nano
+htop
+programa-inexistente
+tree
+fastfetch
