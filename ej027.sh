@@ -10,6 +10,6 @@ echo "Prefiero Windows antes que otros." >> "$fichero"
 
 echo "Contenido modificado con sed"
 
-#Indica la palagra d eorigen a  modificar "s" y la palabra por la que sera remplazada "g"
+#Indica la palabra a buscar con el "s/Windows"  siendo el "s" el iniciador de la busqueda para despues en la misma liena se remplaze por "Linux" y se aplique en todo el documento se añade "g" de forma global.
 sed 's/Windows/Linux/g' "$fichero"
 
